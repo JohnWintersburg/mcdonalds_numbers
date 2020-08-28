@@ -13,18 +13,13 @@ print(one[2],two[2],three[2],four[2],five[2],six[2],seven[2],eight[2],nine[2])
 print(one[3],two[3],three[3],four[3],five[3],six[3],seven[3],eight[3],nine[3])
 print(one[4],two[4],three[4],four[4],five[4],six[4],seven[4],eight[4],nine[4])
 number = input("Enter your number: ")
-final = [" "," "," "," "," "]
+
 i = 0
-while i < len(number):
-    final[0] = final[0]+one[0]+" "
-    final[1] = final[1]+one[1]+" "
-    final[2] = final[2]+one[2]+" "
-    final[3] = final[3]+one[3]+" "
-    final[4] = final[4]+one[4]+" "
+while i < int(number):
+    print(one[0])
+    print(one[3])
+    print(one[2])
+    print(one[3])
+    print(one[4])
     i += 1
-print(final[0])
-print(final[1])
-print(final[2])
-print(final[3])
-print(final[4])
 b = input("Введите адрес папки: ")
